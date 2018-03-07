@@ -12,6 +12,7 @@ library(infotheo)
 library(polycor)
 library(sbgcop)
 library(pcalg)
+source('R/gaussCItestLocal.R')
 
 ## parameters
 # significance level used in the PC algorithm
@@ -63,5 +64,5 @@ graph.het <- pc(suffStat = list(C = het.corr, n = n, ESS.Mat = het.ess),
 
 ### check the results
 par(mfrow = c(1,2))
-plot(graph.true)
-plot(graph.het)
+plot(graph.true, main = 'True graph')
+plot(graph.het, main = 'Hetcor PC')

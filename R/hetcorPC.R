@@ -1,8 +1,12 @@
+##################################################################################
+# Goal: This is a demo to show how the Hetcor PC algorithm works.
+##################################################################################
+
 #### 0. Dependent Packages ####
 
 library(polycor)
 library(pcalg)
-source('gaussCItestLocal.R')
+source('R/gaussCItestLocal.R')
 
 #### 1. Read Data ####
 
