@@ -1,6 +1,7 @@
 ##################################################################################
 # Goal: the application of the Hetcor PC algorithm to the HolzingerSwineford1939
 #       dataset, which is publicly available in package 'lavaan'.
+# Author: Ruifei Cui
 ##################################################################################
 
 
